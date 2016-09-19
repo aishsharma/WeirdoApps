@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weirdo Apps</title>
+
+    <link rel="stylesheet" href="/static/css/bootstrap-readable.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+
+    
+    <div class="container-fluid">
+        {% block body %} {% endblock %}
+    </div>
+
+    <script src="/static/js/jquery.min.js">
+    <script src="/static/js/bootstrap.min.js">
+
+    {% block extrascripts %} {% endblock %}
+</body>
+</html>
